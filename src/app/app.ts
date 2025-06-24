@@ -9,4 +9,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'demo';
+   clickbnt() {
+        alert("多按幾次!")
+    }
 }

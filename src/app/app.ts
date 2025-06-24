@@ -8,8 +8,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'demo';
-   clickbnt() {
-        alert("多按幾次!")
-    }
+  protected title = 'demo0624';
+
+  clickbnt() {
+    alert("多按幾次!")
+  }
 }

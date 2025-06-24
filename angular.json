@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "demo": {
+    "demo0624": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "demo:build:production"
+              "buildTarget": "demo0624:build:production"
             },
             "development": {
-              "buildTarget": "demo:build:development"
+              "buildTarget": "demo0624:build:development"
             }
           },
           "defaultConfiguration": "development"
